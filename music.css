@@ -55,3 +55,41 @@ audio {
 ul.recent { list-style: none; padding: 0; }
 ul.recent li { margin-bottom: 0.4em; }
 .year { color: #8a8478; }
+
+/* Catalog of pieces: the science site's bevelled table, lights off */
+table.catalog {
+  margin: 0 auto;
+  border: 3px outset #4a4740;
+  border-spacing: 3px;
+  background: #2c2a26;
+  font-size: 0.9em;
+}
+table.catalog th, table.catalog td {
+  border: 2px inset #4a4740;
+  padding: 3px 10px;
+  background: #161513;
+  text-align: left;
+}
+table.catalog th {
+  background: #2c2a26;
+  font-family: "LM Mono", "Courier New", monospace;
+  font-weight: normal;
+  font-size: 15px;
+  color: #b8b2a4;
+}
+
+/* Liner notes: plain monospace, like a CD insert typed on a terminal */
+pre.liner {
+  text-align: left;
+  font-family: "LM Mono", "Courier New", monospace;
+  font-size: 14px;
+  line-height: 1.35;
+  color: #b8b2a4;
+  background: #161513;
+  border: 1px dashed #3a3732;
+  padding: 8px 12px;
+  overflow-x: auto;
+}
+
+.prose ul { padding-left: 1.2em; }
+.prose li { margin-bottom: 0.4em; }

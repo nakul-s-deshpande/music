@@ -20,7 +20,7 @@ hr {
   margin: 0 auto 2.2em;
 }
 .piece h3 { font-size: 1.2em; margin-bottom: 0.2em; }
-.piece .year { font-weight: normal; color: #8a8478; }
+.piece .year { font-weight: normal; }
 .piece .notes { margin-top: 0; font-style: italic; color: #b8b2a4; }
 .piece .links { font-family: "LM Mono", "Courier New", monospace; font-size: 15px; }
 
@@ -41,3 +41,17 @@ audio {
   font-family: "LM Mono", "Courier New", monospace;
   font-size: 15px;
 }
+
+.subtitle { margin-top: 0; color: #b8b2a4; }
+
+/* Running text reads better left-aligned in a narrow centered column */
+.prose {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+.prose h3 { font-size: 1.1em; margin: 1.6em 0 0.4em; }
+
+ul.recent { list-style: none; padding: 0; }
+ul.recent li { margin-bottom: 0.4em; }
+.year { color: #8a8478; }

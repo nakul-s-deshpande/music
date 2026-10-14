@@ -93,3 +93,14 @@ pre.liner {
 
 .prose ul { padding-left: 1.2em; }
 .prose li { margin-bottom: 0.4em; }
+
+/* Platform links: small, out of the nav */
+.social { font-family: "LM Mono", "Courier New", monospace; font-size: 14px; margin-bottom: 0.4em; }
+
+ul.gigs { list-style: none; padding-left: 0; }
+ul.gigs .date { font-family: "LM Mono", "Courier New", monospace; font-size: 15px; color: #8a8478; margin-right: 0.6em; }
+
+/* Notebook: dated entries, newest first */
+.entry { margin-bottom: 1.6em; }
+.entry .date { font-family: "LM Mono", "Courier New", monospace; font-size: 15px; color: #8a8478; margin-bottom: 0.2em; }
+.entry .date + p { margin-top: 0; }

@@ -104,3 +104,42 @@ ul.gigs .date { font-family: "LM Mono", "Courier New", monospace; font-size: 15p
 .entry { margin-bottom: 1.6em; }
 .entry .date { font-family: "LM Mono", "Courier New", monospace; font-size: 15px; color: #8a8478; margin-bottom: 0.2em; }
 .entry .date + p { margin-top: 0; }
+
+/* Home: one short paragraph per section */
+.sections h3 { margin-bottom: 0.2em; }
+.sections h3 + p { margin-top: 0; }
+
+/* Footer written as sentences */
+.colophon p { margin: 0.3em 0; }
+
+/* ---- Prototype: the minimal look (see the matching block in /style.css).
+   /style.css's minimal rules outrank plain selectors here, so the dark
+   colours have to be restated with the same [data-look] prefix. ---- */
+[data-look="minimal"] body { background: #0d0c0b; color: #e6e0d0; }
+[data-look="minimal"] a,
+[data-look="minimal"] a:visited { color: inherit; text-decoration-color: #6f6a60; }
+[data-look="minimal"] a:hover { text-decoration-color: currentColor; }
+[data-look="minimal"] hr { border-top: 1px solid #2c2a26; }
+[data-look="minimal"] h3 { font-weight: normal; }
+[data-look="minimal"] .prose,
+[data-look="minimal"] .piece { max-width: none; margin-left: 0; margin-right: 0; }
+[data-look="minimal"] .subtitle { color: #8a8478; }
+
+[data-look="minimal"] table.catalog {
+  width: 100%;
+  margin: 0;
+  border: 0;
+  border-collapse: collapse;
+  background: none;
+}
+[data-look="minimal"] table.catalog th,
+[data-look="minimal"] table.catalog td {
+  border: 0;
+  border-bottom: 1px solid #2c2a26;
+  background: none;
+  padding: 6px 12px 6px 0;
+}
+[data-look="minimal"] table.catalog th { font-family: inherit; font-size: 0.85em; color: #8a8478; }
+
+[data-look="minimal"] pre.liner { border: 0; border-left: 1px solid #3a3732; background: none; }
+[data-look="minimal"] .video { border-color: #2c2a26; background: none; }
